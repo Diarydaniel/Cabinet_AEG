@@ -5,6 +5,7 @@ import 'glightbox/dist/css/glightbox.css';
 // Importations des components
 import TopBar from './components/TopBar';
 import Header from './components/Header';
+import BackToTopBtn from './components/BackToTopBtn';
 
 import type { Metadata } from "next";
 import { Playfair_Display } from 'next/font/google';
@@ -45,6 +46,7 @@ export default function RootLayout({
         <TopBar />
         <Header />
         {children}
+        <BackToTopBtn />
         {/* <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

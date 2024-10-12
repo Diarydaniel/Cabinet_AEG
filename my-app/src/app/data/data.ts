@@ -1,3 +1,4 @@
+// Données pour la section de navigations
 export const navs = [
     {
         id: 1,
@@ -48,3 +49,23 @@ export const navs = [
         active: false,
     },
 ]
+
+
+// Données pour les avantages
+export const whyUs = [
+    {
+        id: 1,
+        title: 'Lorem Ipsum',
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellat nisi provident tenetur molestias aliquam quae nemo exercitationem inventore ipsum minus ab voluptatum, modi, eos fuga praesentium vitae iusto sunt!',
+    },
+    {
+        id: 2,
+        title: 'Lorem Ipsum',
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellat nisi provident tenetur molestias aliquam quae nemo exercitationem inventore ipsum minus ab voluptatum, modi, eos fuga praesentium vitae iusto sunt!',
+    },
+    {
+        id: 3,
+        title: 'Lorem Ipsum',
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellat nisi provident tenetur molestias aliquam quae nemo exercitationem inventore ipsum minus ab voluptatum, modi, eos fuga praesentium vitae iusto sunt!',
+    }
+]           
