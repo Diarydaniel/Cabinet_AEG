@@ -1,7 +1,10 @@
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'glightbox/dist/css/glightbox.css';
+
+// Importations des components
 import TopBar from './components/TopBar';
+import Header from './components/Header';
 
 import type { Metadata } from "next";
 import { Playfair_Display } from 'next/font/google';
@@ -40,6 +43,7 @@ export default function RootLayout({
       </head>
       <body className={playfair.className}>
         <TopBar />
+        <Header />
         {children}
         {/* <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

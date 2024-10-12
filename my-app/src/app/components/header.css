@@ -1,26 +1,36 @@
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.header {
+#header{
   background: rgba(12, 11, 9, 0.6);
-  height: 90px;
+  border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
-  background: #f2f2f2;
+  padding: 15px 0;
+  top: 40px;
 }
 
-.header.sticked {
-  height: 70px;
+#header.header-scrolled{
+  top: 0;
+  background: rgba(0,0, 0, 0.85);
+  border-bottom: 1px solid #37332a;
 }
 
-.header .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+#header .logo{
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Poppings', sans-serif;
 }
 
-.header .logo h1 {
-  font-size: 30px;
-  font-weight: 700;
-  color: var(--color-default);
-  font-family: var(--font-primary);
+#header .logo a{
+  color: #fff;
+}
+
+#header .logo img {
+  max-width: 40px;
 }

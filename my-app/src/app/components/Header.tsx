@@ -2,6 +2,8 @@
 
 import React, { useState, useEffect } from 'react'
 import './header.css'
+import AppBtn from './AppBtn';
+import Nav from './Nav';
 
 export default function Header() {
     //Déclaration des variables à utiliser
@@ -33,6 +35,9 @@ export default function Header() {
                 {/* <a href="index.html" className="logo me-auto me-lg-0">
                     <img src="assets/img/logo.png" alt="" className='img-fluid' />
                 </a> */}
+
+                <Nav />
+                <AppBtn name='Cabinet AEG' />
             </div>
         </header>
     )
