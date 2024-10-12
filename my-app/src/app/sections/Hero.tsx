@@ -14,7 +14,7 @@ export default function Hero() {
     }, []);
 
   return (
-    <section id='hero' className='d-flex align-align-items-center'>
+    <section id='hero' className='d-flex align-items-center'>
         <div
             className='container position-relative text-center text-lg-start'
             data-aos='zoom-in'
@@ -26,7 +26,7 @@ export default function Hero() {
                     <h1>
                         Welcome to yammy <span>Cabinet AEG</span>
                     </h1>
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vitae unde, aliquam molestias tempora corrupti ab quam perspiciatis laboriosam, at accusantium voluptatibus. Quae, necessitatibus! Labore officiis nihil vel sint hic.</h2>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vitae unde</h2>
 
                     <div className='btns'>
                         <HeroBtn  name='our menu' target='menu'/>
