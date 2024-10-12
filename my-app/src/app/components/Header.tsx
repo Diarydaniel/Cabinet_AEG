@@ -30,11 +30,12 @@ export default function Header() {
         >
             <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
                 <h1 className="logo me-auto me-lg-0">
-                    <a href="/">CABINET AEG</a>
+                    <a href="/" className="d-flex align-items-center">
+                        <img src="/assets/logo.png" alt="Logo" className="img-fluid logo-img" />
+                        <span className="ms-2">Logo AEG</span>
+                    </a>
                 </h1>
-                {/* <a href="index.html" className="logo me-auto me-lg-0">
-                    <img src="assets/img/logo.png" alt="" className='img-fluid' />
-                </a> */}
+
 
                 <Nav />
                 <AppBtn name='Cabinet AEG' />

@@ -4,7 +4,7 @@
 import React, { useEffect } from 'react'
 import './hero.css';
 import GLightbox from 'glightbox';
-import HeroBtn from '../components/HeroBtn';
+// import HeroBtn from '../components/HeroBtn';
 
 export default function Hero() {
     useEffect(() => {
@@ -28,10 +28,10 @@ export default function Hero() {
                         </h1>
                         <h2> ''Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores similique harum odio error consequatur beatae maxime illum ''</h2>
 
-                        <div className='btns'>
+                        {/* <div className='btns'>
                             <HeroBtn name='our menu' target='menu' />
                             <HeroBtn name='book a table' target='book-a-table' />
-                        </div>
+                        </div> */}
                     </div>
 
                     <div
