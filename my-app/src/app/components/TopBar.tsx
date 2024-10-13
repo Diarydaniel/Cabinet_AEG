@@ -31,13 +31,13 @@ export default function TopBar() {
             <div className="container d-flex justify-content-center justify-content-md-between">
                 <div className="contact-info d-flex align-items-center">
                     <i className="bi bi-phone d-flex align-items-center">
-                        <span> + 261 38 61 133 36</span>
+                        <span> +262 629 16 57 44</span>
                     </i>
                     <i className="bi bi-clock d-flex align-items-center ms-4">
-                        <span>Mon-Sat: 11AM - 23PM</span>
+                        <span>Ouverture du Lundi au Samedi : 8h00 - 17h00</span>
                     </i>
                 </div>
-                <div className="languages d-none d-md flex align-items-center">
+                <div className="languages d-flex d-md flex align-items-center">
                     <ul>
                         <li>FR</li>
                         <li>

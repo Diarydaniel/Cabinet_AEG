@@ -151,3 +151,53 @@ export const filters = [
         active: false,
     },
 ]
+
+
+//Données des evenements
+export const events = [
+    {
+        id: 1,
+        image: './assets/images/events/events-1.jpg',
+        title: 'Conference',
+        price: 189,
+        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    magna aliqua.`,
+        details: [
+            'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            'Duis aute irure dolor in reprehenderit in voluptate velit.',
+            'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        ],
+        summary: `Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur`,
+    },
+    {
+        id: 2,
+        image: './assets/images/events/events-2.jpg',
+        title: 'Partage de connaissance',
+        price: 290,
+        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    magna aliqua.`,
+        details: [
+            'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            'Duis aute irure dolor in reprehenderit in voluptate velit.',
+            'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        ],
+        summary: `Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur`,
+    },
+    {
+        id: 3,
+        image: './assets/images/events/events-3.jpg',
+        title: '',
+        price: 99,
+        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    magna aliqua.`,
+        details: [
+            'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            'Duis aute irure dolor in reprehenderit in voluptate velit.',
+            'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        ],
+        summary: `Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur`,
+    },
+];
