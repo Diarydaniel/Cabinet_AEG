@@ -39,9 +39,6 @@
 }
 
 @media (max-width: 800px){
-    .events .image{
-        border-radius: 50%;
-    }
     .events .content{
         text-align: justify;
     }

@@ -22,9 +22,9 @@ export default function EventsItem({
             <div className="col-lg-6 pt-4 pt-lg-0 content">
                 <h3>{item.title}</h3>
                 <div className='price'>
-                    <p>
+                    {/* <p>
                         <span>${item.price}</span>
-                    </p>
+                    </p> */}
                 </div>
                 <p className='content fst-italic'>{item.content}</p>
                 <ul>
