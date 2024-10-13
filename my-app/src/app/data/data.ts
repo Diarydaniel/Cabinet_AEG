@@ -281,3 +281,29 @@ export const gallery = [
         image: '/assets/images/gallery/gallery-8.jpg',
     },
 ];
+
+
+//Données des Directions
+export const chefs = [
+    {
+        id: 1,
+        name: 'Walter White',
+        photo: './assets/images/chefs/chefs-1.jpg',
+        position: 'Président',
+        delay: '100',
+    },
+    {
+        id: 2,
+        name: 'Sarah Jhonson',
+        photo: './assets/images/chefs/chefs-2.jpg',
+        position: 'Directeur Génerale',
+        delay: '200',
+    },
+    {
+        id: 3,
+        name: 'Jackson Rid',
+        photo: './assets/images/chefs/chefs-5.jpg',
+        position: 'Managere',
+        delay: '300',
+    },
+];
