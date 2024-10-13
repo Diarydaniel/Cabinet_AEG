@@ -1,0 +1,14 @@
+.image{
+    border-radius: 20px;
+}
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #eeddb6;
+}
+.description{
+    font-size: 1.3rem;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}

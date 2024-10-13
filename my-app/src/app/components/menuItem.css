@@ -4,7 +4,9 @@
 .menu .menu-item{
     margin-top: 50px;
 }
-
+.menu .subname{
+    text-align: justify;
+}
 .menu .menu-img{
     width: 70px;
     border-radius: 50%;

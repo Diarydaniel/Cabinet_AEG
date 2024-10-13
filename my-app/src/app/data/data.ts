@@ -85,7 +85,7 @@ export const menu = [
         id: 2,
         name: 'Lorem Ipsum',
         botton: 'Voir detaile',
-        preview: '/assets/images/menu/Menu-3.jpg',
+        preview: '/assets/images/menu/Menu-2.jpg',
         subname: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellat nisi provident tenetur molestias aliquam quae nemo exercitationem inventore ipsum minus ab voluptatum, modi, eos fuga praesentium vitae iusto sunt!',
         category: 'professionel',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellat nisi provident tenetur molestias aliquam quae nemo exercitationem inventore ipsum minus ab voluptatum, modi, eos fuga praesentium vitae iusto sunt!Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellat nisi provident tenetur molestias aliquam quae nemo exercitationem inventore ipsum minus ab voluptatum, modi, eos fuga praesentium vitae iusto sunt!Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellat nisi provident tenetur molestias aliquam quae nemo exercitationem inventore ipsum minus ab voluptatum, modi, eos fuga praesentium vitae iusto sunt!.',

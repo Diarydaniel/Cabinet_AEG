@@ -1,6 +1,7 @@
 import React from "react";
 import Breadcrumb from "@/app/components/Breadcrumb";
 import Image from "next/image";
+import './page.css'
 
 async function getMenuDetails(id: string) {
     try {
@@ -23,7 +24,7 @@ export default async function MenuDetails({ params }: { params: { id: string } }
     const food = await getMenuDetails(id);
 
     if (!food) {
-        return <p>Menu details not found.</p>; // Gérer le cas où les détails du menu ne sont pas disponibles
+        return <p>Menu details not found.</p>;
     }
 
     return (
@@ -42,8 +43,8 @@ export default async function MenuDetails({ params }: { params: { id: string } }
                             />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="mt-3">{food.name}</h2>
-                            <p className="mt-5">{food.description}</p>
+                            <h2 className="title mt-3">{food.name}</h2>
+                            <p className="description mt-5">{food.description}</p>
                         </div>
                     </div>
                 </div>

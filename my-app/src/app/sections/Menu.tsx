@@ -52,7 +52,7 @@ export default function Menu() {
     return (
         <section id='menu' className='menu section-bg'>
             <div className='container' data-aos='fade-up'>
-                <SectionTitle title='Notre Type activite' subtitle='Voici tous les liste des activitées dans notre Cabinet AEG' />
+                <SectionTitle title='Notre Type activite' subtitle='Voici tous les listes des activitées dans notre Cabinet AEG' />
 
                 <div className='row' data-aos='fade-up' data-aos-delay='100'>
                     <div className='col-lg-12 d-flex justify-content-center'>

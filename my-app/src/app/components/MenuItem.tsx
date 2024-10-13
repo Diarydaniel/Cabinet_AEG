@@ -16,9 +16,9 @@ export default function MenuItem({ item }: {
             {/* <img src={item.preview} className='menu-img' alt="image" /> */}
             <div className='menu-content'>
                 <Link href={`/menu/${item.id}`}>{item.name}</Link>
-                <span>{item.botton}</span>
+                <Link href={`/menu/${item.id}`}><span>{item.botton}</span></Link>
             </div>
-            <div className='menu-ingredients'>{item.subname}</div>
+            <div className='subname menu-ingredients'>{item.subname}</div>
         </div>
     );
 }

@@ -4,10 +4,17 @@ import WhyUsCard from '../components/WhyUsCard';
 import SectionTitle from '../components/SectionTitle';
 
 async function getWhyUsData() {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/whyus`);
-    return res.json();
+    const apiUrl = `${process.env.NEXT_PUBLIC_API_URL}/whyus`;
+    const res = await fetch(apiUrl);
 
+    // Vérifiez le statut de la réponse
+    if (!res.ok) {
+        throw new Error(`HTTP error! status: ${res.status}`);
+    }
+
+    return res.json();
 }
+
 
 export default async function WhyUs() {
     const items: [] = await getWhyUsData();
