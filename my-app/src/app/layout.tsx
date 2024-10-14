@@ -10,6 +10,7 @@ import BackToTopBtn from './components/BackToTopBtn';
 import type { Metadata } from "next";
 import { Playfair_Display } from 'next/font/google';
 import "./globals.css";
+import Footer from './sections/Footer';
 
 
 const playfair = Playfair_Display({
@@ -46,6 +47,7 @@ export default function RootLayout({
         <TopBar />
         <Header />
         {children}
+        <Footer />
         <BackToTopBtn />
         {/* <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

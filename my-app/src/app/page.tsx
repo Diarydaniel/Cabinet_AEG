@@ -6,6 +6,7 @@ import Menu from "./sections/Menu";
 import Testimonials from "./sections/Testimonials";
 import Chefs from "./sections/Chefs";
 import WhyUs from "./sections/WhyUs";
+import Contact from "./sections/Contact";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Testimonials />
         <Gallery />
         <Chefs />
+        <Contact />
       </main>
     </>
   );

@@ -24,14 +24,17 @@ export default function Nav() {
         setOpen(!open);
     }
 
-    const handleScrollTo = (section : string) => {};
-    const handleNavActive = () => {};
+    const handleScrollTo = (section: string) => {
+        let header: HTMLAnchorElement = document.querySelector('#header')!;
+        let offset = header.offsetHeight;
+
+    };
+    const handleNavActive = () => { };
 
     return (
-        <nav    
+        <nav
             id='navbar'
-            className={`navbar order-last order-lg-0 ${
-                open ? 'navbar-mobile' : undefined}`}
+            className={`navbar order-last order-lg-0 ${open ? 'navbar-mobile' : undefined}`}
         >
             <ul>
                 {navList.map(nav => (
