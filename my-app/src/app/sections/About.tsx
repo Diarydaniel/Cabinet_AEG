@@ -18,19 +18,26 @@ export default function About() {
                         </div>
                     </div>
                     <div className='col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content'>
-                        <h3 className='title'>
-                            Présentation de notre Entreprise Cabinet AEG :
-                        </h3>
-                        <p className='description fst-italic text-justify-content-center'>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae libero odit magnam qui, itaque, neque atque labore quia delectus reiciendis quis ipsam reprehenderit quaerat. Nisi non assumenda obcaecati ab error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cum dolores voluptatem quis nam beatae expedita explicabo placeat debitis voluptates, quod, eos est eveniet molestias reprehenderit, ullam non alias natus!
+                        <h3 className='title'> Présentation de notre Entreprise Cabinet AEG : </h3>
+                        <p className='description fst-italic text-justify-content-center'> Le Cabinet AEG accompagne les entreprises et les particuliers dans la gestion administrative, RH, comptable, financière, ainsi que dans les domaines du marketing et de la prospection. Notre mission est de simplifier les processus pour que nos clients puissent se concentrer sur leur cœur de métier.
                         </p>
                         <ul>
-                            <li><span>¤</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-                            <li><span>¤</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-                            <li><span>¤</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                            <li>
+                                <span>¤</span> Services administratifs : gestion d'agenda, recrutement, achats, et gestion des contrats.
+                            </li>
+                            <li>
+                                <span>¤</span> Ressources humaines : gestion des dossiers salariés, paie, cotisations sociales, et absences.
+                            </li>
+                            <li>
+                                <span>¤</span> Comptabilité et finance : suivi de trésorerie, facturation, recouvrement, et suivi budgétaire.
+                            </li>
+                            <li>
+                                <span>¤</span> Commercial et marketing : prospection, gestion des réseaux sociaux, création de sites web et logos.
+                            </li>
                         </ul>
+                        <p className='description fst-italic text-justify-content-center'> Pour les particuliers, AEG propose également un accompagnement personnalisé : rédaction de CV, coaching d'entretien, aide à l'insertion professionnelle, et gestion des démarches administratives. Le Cabinet AEG reste à l'écoute de sa clientèle pour les aider à évoluer dans leur domaine professionnel et personnel.
+                        </p>
                         <p className='description fst-italic text-justify-content-center'>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae libero odit magnam qui, itaque, neque atque labore quia delectus reiciendis quis ipsam reprehenderit quaerat. Nisi non assumenda obcaecati ab error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cum dolores voluptatem quis nam beatae expedita explicabo placeat debitis voluptates, quod, eos est eveniet molestias reprehenderit, ullam non alias natus!
                         </p>
                     </div>
                 </div>

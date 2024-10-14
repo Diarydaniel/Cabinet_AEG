@@ -46,6 +46,7 @@
 
 .testimonials .testimonial-item p{
     font-size: italic;
+    text-align: justify;
     margin: 0 15px 0 15px;
     padding: 20px 20px 60px 20px ;
     background:#26231d;
@@ -53,4 +54,7 @@
     border-radius: 6px;
     position: relative;
     z-index: 1;
+}
+.testimonials .testimonial-item .client{
+    color: #d3af71;
 }
