@@ -12,17 +12,18 @@ export default function Contact() {
             <div data-aos='fade-up'>
                 <iframe
                     style={{ border: 0, width: '100%', height: '350px' }}
-                    src='https://www.google.com/maps/place/ESMIA/@-18.9227454,47.5229166,17z/data=!3m1!4b1!4m6!3m5!1s0x21f07e752e92ee85:0x76690898b30e6cf5!8m2!3d-18.9227505!4d47.5254915!16s%2Fg%2F11c2kcpvng?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D'//Mettre le lien 
+                    src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126161.73164878827!2d47.5229166!3d-18.9227454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f07e752e92ee85%3A0x76690898b30e6cf5!2sESMIA!5e0!3m2!1sfr!2smg!4v1697242027710!5m2!1sfr!2smg'
                     allowFullScreen
                 ></iframe>
             </div>
+
 
             <div className='container' data-aos='fade-up'>
                 <div className='row mt-5'>
                     <div className='col-lg-4'>
                         <div className='info'>
                             <div className='address'>
-                                <i className='bi bi-geo-all'></i>
+                                <i className='bi bi-geo-alt'></i>
                                 <h4>Localisation:</h4>
                                 <p>100 Your Street, your city, State 1234</p>
                             </div>
