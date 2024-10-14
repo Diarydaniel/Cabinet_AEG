@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react'
+import { useRouter, usePathname } from 'next/navigation';
 import './nav.css';
 import { navs } from '../data/data';
 
 export default function Nav() {
-
+    const pathname = usePathname();
+    const router = useRouter();
     const [navList, setNavList] = useState(navs);
     const [open, setOpen] = useState(false);
     const [scroll, setScroll] = useState(0);
@@ -25,9 +27,18 @@ export default function Nav() {
     }
 
     const handleScrollTo = (section: string) => {
-        let header: HTMLAnchorElement = document.querySelector('#header')!;
+        let header: HTMLElement = document.querySelector('#header')!;
         let offset = header.offsetHeight;
-
+        let targetEl: HTMLElement = document.querySelector('#' + section)!;
+        if (pathname === '/') {
+            let elementPosition = targetEl.offsetTop;
+            window.scrollTo({
+                top: elementPosition - offset,
+                behavior: 'smooth',
+            });
+        } else {
+            router.push('/#${section}');
+        }
     };
     const handleNavActive = () => { };
 
