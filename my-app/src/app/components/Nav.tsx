@@ -40,7 +40,31 @@ export default function Nav() {
             router.push('/#${section}');
         }
     };
-    const handleNavActive = () => { };
+    const handleNavActive = () => {
+        let position = scroll + 200
+
+        setNavList(
+            navList.map(nav => {
+                nav.active = false;
+                let targetSection: HTMLElement = document.querySelector(
+                    '#' + nav.target
+                )!;
+
+                if (
+                    targetSection &&
+                    position >= targetSection.offsetTop &&
+                    position <= targetSection.offsetTop + targetSection.offsetHeight
+                ) {
+                    nav.active = true;
+                }
+                return nav;
+            })
+        );
+    };
+
+    useEffect(() => {
+        handleNavActive();
+    }, [scroll]);
 
     return (
         <nav
